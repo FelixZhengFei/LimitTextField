@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		769411291F947C9A009CAD26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769411281F947C9A009CAD26 /* AppDelegate.swift */; };
-		7694112B1F947C9A009CAD26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694112A1F947C9A009CAD26 /* ViewController.swift */; };
-		7694112E1F947C9A009CAD26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7694112C1F947C9A009CAD26 /* Main.storyboard */; };
 		769411301F947C9A009CAD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7694112F1F947C9A009CAD26 /* Assets.xcassets */; };
 		769411331F947C9A009CAD26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 769411311F947C9A009CAD26 /* LaunchScreen.storyboard */; };
+		769411481F947E8E009CAD26 /* FFLimitTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769411461F947E8D009CAD26 /* FFLimitTool.swift */; };
+		769411491F947E8E009CAD26 /* FFLimitTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769411471F947E8E009CAD26 /* FFLimitTextField.swift */; };
+		7694114E1F948047009CAD26 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7694114C1F948047009CAD26 /* TextViewController.swift */; };
+		7694114F1F948047009CAD26 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7694114D1F948047009CAD26 /* TextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		769411251F947C9A009CAD26 /* LimitTextFiled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LimitTextFiled.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		769411281F947C9A009CAD26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7694112A1F947C9A009CAD26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7694112D1F947C9A009CAD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7694112F1F947C9A009CAD26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		769411321F947C9A009CAD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		769411341F947C9A009CAD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		769411461F947E8D009CAD26 /* FFLimitTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FFLimitTool.swift; path = ../../../TextFiled/TextFiled/FFLimitTool.swift; sourceTree = "<group>"; };
+		769411471F947E8E009CAD26 /* FFLimitTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FFLimitTextField.swift; path = ../../../TextFiled/TextFiled/FFLimitTextField.swift; sourceTree = "<group>"; };
+		7694114C1F948047009CAD26 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		7694114D1F948047009CAD26 /* TextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				769411281F947C9A009CAD26 /* AppDelegate.swift */,
-				7694112A1F947C9A009CAD26 /* ViewController.swift */,
-				7694112C1F947C9A009CAD26 /* Main.storyboard */,
+				7694114C1F948047009CAD26 /* TextViewController.swift */,
+				7694114D1F948047009CAD26 /* TextViewController.xib */,
+				769411471F947E8E009CAD26 /* FFLimitTextField.swift */,
+				769411461F947E8D009CAD26 /* FFLimitTool.swift */,
 				7694112F1F947C9A009CAD26 /* Assets.xcassets */,
 				769411311F947C9A009CAD26 /* LaunchScreen.storyboard */,
 				769411341F947C9A009CAD26 /* Info.plist */,
@@ -125,7 +131,7 @@
 			files = (
 				769411331F947C9A009CAD26 /* LaunchScreen.storyboard in Resources */,
 				769411301F947C9A009CAD26 /* Assets.xcassets in Resources */,
-				7694112E1F947C9A009CAD26 /* Main.storyboard in Resources */,
+				7694114F1F948047009CAD26 /* TextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +142,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7694112B1F947C9A009CAD26 /* ViewController.swift in Sources */,
+				7694114E1F948047009CAD26 /* TextViewController.swift in Sources */,
+				769411491F947E8E009CAD26 /* FFLimitTextField.swift in Sources */,
 				769411291F947C9A009CAD26 /* AppDelegate.swift in Sources */,
+				769411481F947E8E009CAD26 /* FFLimitTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7694112C1F947C9A009CAD26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7694112D1F947C9A009CAD26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		769411311F947C9A009CAD26 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

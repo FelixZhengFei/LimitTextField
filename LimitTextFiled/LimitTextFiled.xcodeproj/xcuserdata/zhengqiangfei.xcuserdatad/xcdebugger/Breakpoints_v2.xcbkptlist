@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LimitTextFiled/TextViewController.swift"
+            timestampString = "529826038.538249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LimitTextFiled.TextViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LimitTextFiled"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhengqiangfei/Desktop/LimitTextField/LimitTextFiled/LimitTextFiled/TextViewController.swift"
+                  timestampString = "529826006.066934"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "275">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in LimitTextFiled.TextViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "LimitTextFiled"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhengqiangfei/Desktop/LimitTextField/LimitTextFiled/LimitTextFiled/TextViewController.swift"
+                  timestampString = "529826006.071183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
